@@ -1,1 +1,1 @@
-# Vue 3, Vite, Typescript with TailwindCSS starter app
+# Vue 3, Vuex, Vue-Router, Typescript with TailwindCSS starter app
