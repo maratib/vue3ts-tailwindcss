@@ -5,7 +5,7 @@
 #To install the dependencies
 yarn 
 
-#run in hot reload mode
+#Run in hot reload mode
 yarn dev
 
 #To build the project
