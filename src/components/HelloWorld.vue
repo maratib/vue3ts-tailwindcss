@@ -1,22 +1,20 @@
 <template>
-  <h1 class="text-yellow-600">{{ msg }}</h1>
-  <button @click="count++">count is: {{ count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+  <div class="hello">
+    <h1 class="text-red-700">{{ msg }}</h1>
+    <p>Start from here ... ;-)</p>
+  </div>
 </template>
 
-<script>
-export default {
-  name: "HelloWorld",
+<script lang="ts">
+import { Options, Vue } from "vue-class-component";
+
+@Options({
   props: {
     msg: String,
   },
-  data() {
-    return {
-      count: 0,
-    };
-  },
-};
+})
+export default class HelloWorld extends Vue {
+  msg!: string;
+}
 </script>
+

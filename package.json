@@ -1,7 +1,9 @@
 {
   "name": "vue3-1",
-  "version": "0.0.0",
-  "description": "Vue 3 app",
+  "version": "0.0.1",
+  "author": "Maratib Ali Khan",
+  "description": "Vue 3 starter app",
+  "private": false,
   "repository": {},
   "license": "MIT",
   "scripts": {
@@ -9,11 +11,21 @@
     "build": "vite build"
   },
   "dependencies": {
-    "tailwindcss": "^1.8.10",
-    "vue": "^3.0.0"
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0-0",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "tailwindcss": "^1.8.10"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.1",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "typescript": "~3.9.3",
+    "vite": "^1.0.0-rc.1"
   }
 }
